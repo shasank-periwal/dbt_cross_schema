@@ -1,0 +1,12 @@
+dbt_cross_schema:
+  outputs:
+    dev:
+      dbname: postgres
+      host: 127.0.0.1
+      pass: root
+      port: 5432
+      schema: reporting_db
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev

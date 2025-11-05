@@ -1,6 +1,6 @@
 {{ 
     config(
-        schema="reporting_customer",
+        schema="reporting_db",
     )
 }}
 
