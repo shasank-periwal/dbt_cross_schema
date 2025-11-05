@@ -16,7 +16,7 @@ The first part of the solution involves explicitly specifying which schema the m
 
 ```sql
 {{ config(
-    schema="customer_schema",
+    schema="reporting_db",
 )}}
 ```
 
