@@ -16,7 +16,7 @@ v_dim_customer AS (
         dob,
         city,
         balance 
-    FROM "postgres"."reporting_customer"."dim_customer"
+    FROM "postgres"."reporting_db"."dim_customer"
 ),
 v_final AS (
     SELECT 
